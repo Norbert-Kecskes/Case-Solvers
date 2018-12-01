@@ -7,6 +7,19 @@ h1 {
     color: red;
 }
 
+.elso-program {
+    margin-top: 60px;
+}
+
 h5 {
+    margin-top: 0px;
+}
+
+.masodik-program {
     margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+p {
+    margin-bottom: 15px;
 }

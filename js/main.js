@@ -23,4 +23,13 @@
       }
     });
 
+    $("#shift").on("click", function() {
+        var p1 = $("#p1").text();
+        var p2 = $("#p2").text();
+        var p3 = $("#p3").text();
+        $("#p1").text(p3);
+        $("#p2").text(p1);
+        $("#p3").text(p2);
+    });
+
   });

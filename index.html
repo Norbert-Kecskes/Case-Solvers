@@ -23,21 +23,31 @@
   <body>
 
     <h1>Hello Case-Solvers!</h1>
-    <h5>Program 1 (Email cím eldöntős):</h5>
-    <div class="row">
-      <div class="col-10 col-sm-6 col-md-4 col-lg-3">
-        <div class="form-group">
-          <form id="emailCheck" novalidate>
-            <label for="registerEmail">Email cím ellenőrző.</label>
-            <input name="registerEmail" required type="email" class="form-control" id="Email" placeholder="Email">
-            <small id="emailHelp" class="form-text text-muted">Csak Email címet fogadok el.</small>
-            <button type="submit" class="btn btn-primary">Check</button>
-          </form>
+    <div class="elso-program">
+      <h5>Program 1 (Email cím eldöntős):</h5>
+      <div class="row">
+        <div class="col-10 col-sm-6 col-md-4 col-lg-3">
+          <div class="form-group">
+            <form id="emailCheck" novalidate>
+              <label for="registerEmail">Email cím ellenőrző.</label>
+              <input name="registerEmail" required type="email" class="form-control" id="Email" placeholder="Email">
+              <small id="emailHelp" class="form-text text-muted">Csak Email címet fogadok el.</small>
+              <button type="submit" class="btn btn-primary">Check</button>
+            </form>
+          </div>
         </div>
       </div>
+      <p id="valosEmail" style="display:none;">Valós email cím, köszönöm!</p>
+      <p id="valotlanEmail" style="display: none;">Valótlan email cím, addj meg egy valósat kérlek!</p>
     </div>
-    <p id="valosEmail" style="display:none;">Valós email cím, köszönöm!</p>
-    <p id="valotlanEmail" style="display: none;">Valótlan email cím, addj meg egy valósat kérlek!</p>
+
+    <div class="masodik-program">
+      <h5>Program 2 (Arrébb shiftelős):</h5>
+      A:<p id="p1">5</p>
+      B:<p id="p2">10</p>
+      C:<p id="p3">15</p>
+      <button class="btn btn-danger" id="shift">Shift</button>
+    </div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
